@@ -1,11 +1,5 @@
 #!/bin/bash -e
 
-###
-### This script is run 'locally' on your development machine
-### It will export your public and private key and then encrypt 
-### the files so they can be stored safely in a public repo.
-###
-
 #This script is called by travis in the root of the repo... so
 cd releng
 
