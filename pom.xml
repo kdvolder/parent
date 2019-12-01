@@ -11,6 +11,8 @@
 	<url>https://github.com/kdvolder/parent</url>
 
 	<properties>
+		<gpg-plugin-version>1.6</gpg-plugin-version>
+		<nexus-staging-plugin-version>1.6.7</nexus-staging-plugin-version>
 		<auto-release>true</auto-release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -49,7 +51,7 @@
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.3</version>
+				<version>${nexus-staging-plugin-version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
@@ -89,7 +91,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.5</version>
+				<version>${gpg-plugin-version}</version>
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
