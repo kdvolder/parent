@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.kdvolder</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<name>parent</name>
 	<packaging>pom</packaging>
 	<description>Parent pom for projects in com.github.kdvolder group</description>
