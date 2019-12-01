@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<description>Parent pom for projects in com.github.kdvolder group</description>
 
-	<url>https://github.com/kdvolder/misc-util</url>
+	<url>https://github.com/kdvolder/parent</url>
 
 	<properties>
 		<auto-release>true</auto-release>
